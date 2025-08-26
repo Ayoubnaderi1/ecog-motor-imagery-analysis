@@ -1,5 +1,5 @@
 """
-3D Connectome Visualization for Motor Imagery ECoG Data
+3D Connectome Visualization for Motor Imagery ECoG Data 
 
 This module provides functions for creating 3D interactive connectome plots
 to visualize functional connectivity patterns between brain regions during
@@ -562,4 +562,5 @@ def add_visualization_to_main_analysis(
 if __name__ == "__main__":
     print("3D Connectome Visualization Module")
     print("Import this module and use the functions in your main analysis script.")
+
     print("See example_usage() function for integration examples.")
