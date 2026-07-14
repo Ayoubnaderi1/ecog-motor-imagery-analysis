@@ -1,2 +1,2 @@
-from utils.io_utils import load_data
-from models.classifier import MotorImageryClassifier
+from utils.io_utils import load_motor_imagery_data
+from models.classifier import run_complete_classification_pipeline
