@@ -17,6 +17,16 @@ An end-to-end Python pipeline for connectivity-based classification of motor ima
 - **Classification**: Standard Scaling → SVM Training → Performance Evaluation 
 - **Visualization**: 3D Brain Mapping / 2D Connectivity Heatmaps → Report Generation
 
+## 💾 Dataset Information & Retrieval
+
+This project utilizes a clinical ECoG dataset recorded during motor execution and motor imagery tasks (Hand vs. Tongue) from [Miller et al., PNAS (2010)](https://doi.org/10.1073/pnas.0913697107).
+
+### 📥 Direct Download
+* **Dataset File:** [`motor_imagery.npz` (OSF Link)](https://osf.io/ksqv8/download)
+* **Dataset Hub:** [Stanford Digital Repository](https://exhibits.stanford.edu/data/catalog/zk881ps0522)
+
+### 🐍 Auto-Download Script
+You can automatically download the dataset into your project directory using this Python snippet:
 
 ## 📦 Prerequisites & Installation
 
