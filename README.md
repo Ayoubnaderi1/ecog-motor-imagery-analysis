@@ -30,12 +30,24 @@ pip install numpy scipy matplotlib seaborn scikit-learn mne-connectivity pandas
 python main.py
 ```
 
-## 📊 Outputs
+## 📊 Outputs & Visualization
 
-- **Results**: Saved as `motor_imagery_analysis_results.npz` containing cross-validation metrics, final model accuracy, and extracted feature shapes.
-- **Plots**: Generated inside the `connectome_plots/` directory, including:
-    - Overall/ROI-wise connectivity strength comparisons
-    - Difference matrices
+### Generated Plots
+Plots are automatically saved inside the `connectome_plots/` directory.
+
+#### 1. 3D Connectome Visualizations
+<p align="center">
+  <img src="connectome_plots/hand_connectome.png" width="48%" alt="Hand Imagery Connectome" />
+  <img src="connectome_plots/tongue_connectome.png" width="48%" alt="Tongue Imagery Connectome" />
+</p>
+
+#### 2. Connectivity Differences
+<p align="center">
+  <img src="connectome_plots/Connectivity_Map_Difference_Between_Tongue_Hand.png" width="70%" alt="Connectivity Map Difference" />
+</p>
+
+- **Hand & Tongue Connectomes**: Detailed 3D mapping of brain network connectivity during motor imagery tasks.
+- **Difference Matrix**: Contrast map highlighting the significant functional connectivity changes between Tongue and Hand imagery.
 
 ## 📁 Project Structure
 
