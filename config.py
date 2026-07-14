@@ -1,7 +1,13 @@
 # Configuration file for Motor Imagery ECoG Analysis
 
 # Data paths
-DATA_PATH = r"C:\Users\Asus\Downloads\MOTOR Imagery\motor_imagery.npz"
+DATA_PATH = "motor_imagery.npz"
+
+# NOTE: Download the data from one of these links 
+# and place the file directly in the root directory of this project:
+#
+# - Direct Download (OSF): https://osf.io/ksqv8/download
+# - Dataset Source (Stanford): https://exhibits.stanford.edu/data/catalog/zk881ps0522
 
 # Signal processing parameters
 FILTER_PARAMS = {
